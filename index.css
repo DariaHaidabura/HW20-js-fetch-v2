@@ -1,0 +1,75 @@
+#new-comment {
+  margin-left: 100px;
+}
+
+ul {
+  margin-left: 70px;
+}
+
+li {
+  width: 1200px;
+}
+
+.add-comment {
+  font-size: large;
+}
+
+.text-lbl {
+  margin-left: 40%;
+}
+
+.number-lbl {
+  margin-left: 40%;
+}
+
+.text-inp {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.number-inp {
+  width: 50px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.desc {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.comment {
+  text-decoration: underline;
+  font-size: 23px;
+}
+
+button {
+  width: 200px;
+  text-align: center;
+  height: 40px;
+  font-size: medium;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+  position: relative;
+  left: 730px;
+  transform: translate(-50%, 0);  
+} 
+
+button:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+button:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
