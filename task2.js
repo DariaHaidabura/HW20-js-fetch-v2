@@ -8,15 +8,11 @@ setTimeout(function () {
 setTimeout(function () {
   console.log(3);
 }, 0);
- 
+
 setTimeout(function () {
-  new Promise(function (resolve) {
-    resolve();
-  }).then(() => {
-    console.log(4);
-  });
-}, 0);
- 
+  console.log(4);
+}, 50);
+
 console.log(5);
 
 //1 5 3 4 2 
